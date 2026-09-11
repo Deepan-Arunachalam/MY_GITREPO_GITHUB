@@ -1,9 +1,10 @@
 name: Hello World
-on:git push:
+on:
+ push:
 Jobs:
   Hello:
     runs-on: ubuntu-latest
     steps:
         - name: Say Hello
-         run: echo "Hello, World!"
+          run: echo "Hello, World!"
   
