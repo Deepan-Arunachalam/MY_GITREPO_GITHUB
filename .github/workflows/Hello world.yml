@@ -1,7 +1,7 @@
 name: Hello World
 on:
  push:
-Jobs:
+jobs:
   Hello:
     runs-on: ubuntu-latest
     steps:
