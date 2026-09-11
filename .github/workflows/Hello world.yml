@@ -1,0 +1,9 @@
+name: Hello World
+on:git push:
+Jobs:
+  Hello:
+    runs-on: ubuntu-latest
+    steps:
+        - name: Say Hello
+         run: echo "Hello, World!"
+  
